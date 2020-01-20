@@ -16,6 +16,25 @@ $(window).on('load', function () {
 jQuery(document).ready(function ($) {
 
 
+
+    // $('#testimonial').scroll(function() {
+    //     $('#testimonial-div').css('top', $(this).scrollTop());
+    // });
+
+
+
+    $(window).scroll(function(){
+
+        if($(document).scrollTop() > 400) {
+            var newPos = $(document).scrollTop() + 400 ;
+            $('#testimonial').css( {top:newPos});
+        }
+
+        else {
+            $('#testimonial').css( {top:400});
+        }
+    });
+
     /*======= Skillset *=======*/
 
     $('.level-bar-inner').css('width', '0');

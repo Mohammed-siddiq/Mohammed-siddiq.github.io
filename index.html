@@ -69,22 +69,21 @@
                         <p>
 
                             I am a computer science graduate student from UIC, with interests in engineering distributed
-                            systems and engineering large scale data pipelines.
-                            Designing systems and engineering them gives me a rush. The moments where you see your
-                            thoughts and your engineered code creating value in the real world drive me to push through
-                            challenges
-                            and technical obstacles.
+                            systems and large scale data pipelines. I enjoy designing systems and engineering them. The
+                            moments where you see your
+                            thoughts and your engineered code creating value in real world, drives me to push through
+                            challenges and technical obstacles.
 
                             <br><br>
                             When laptop power is done, I would be journaling or reading about the lives of the greats
                             who are impacting the world. I believe there is purpose for life, which I am
                             constantly refining to make my existence on this earth impactful. Lately, I have started
-                            playing chess. I play blitz like its an untimed chess game and always end up making dumb
+                            playing chess. I play blitz like its an un-timed chess game and always end up making dumb
                             moves in the last 30 seconds. I am a believer in education, No matter what the world says
-                            about how the schooling system is rigged or how it is failing students, I believe just
-                            because of the current failures of it, <b><i>the whole system cannot be compromised because
-                            of its current
-                            state</i></b>. There are millions and millions of kids , for whom the very access of this
+                            about how the schooling system is rigged or how it is failing students. I believe just
+                            because of its current failures <b><i>the whole system cannot be compromised because
+                            of its current state</i></b>. There are millions and millions of kids , for whom the very
+                            access of this
                             education
                             can change their lives. I wish to contribute towards this accessibility in the future.
 
@@ -100,6 +99,7 @@
                         <div class="item">
                             <h3 class="title">Graduate Teaching Assistant - Engineering distributed objects in Cloud
                                 computing
+                                <br>
                                 - <span class="place"><a href="#">UIC</a></span> <span
                                         class="year">(Fall 2019)</span></h3>
                             <p>Teaching Assistant for Graduate course CS 441 under prof. Mark Grechanik</p>
@@ -121,28 +121,33 @@
                                 This data was collected, processed and exposed to data science teams which was doing
                                 real time predictive analysis on it.
                                 All this real time data and analysis was exposed to the different users via dashboards.
-                            <h3 class="title"><span class="place">My contribution to the above project:</span></h3>
-                            Different sensor's that were sending the data followed different protocols/configs to
-                            communicate with the backend service.
-                            This became hassle, as maintainance or updation of the configs had a cascading effect on
-                            the data and its analysis.
+                                <br><br>
+                                <u><b>My contribution to the above project:</b></u>
+                                <br>
+                                Different sensor's that were sending the data followed different protocols/configs to
+                                communicate with the backend service.
+                                This became hassle, as maintainance or updation of the configs had a cascading effect on
+                                the data and its analysis.
 
-                            Any addition of new sensors config was manually updated in the backend's .conf file and
-                            subsequent ETL jobs were also updated post that.
+                                Any addition of new sensors config was manually updated in the backend's .conf file and
+                                subsequent ETL jobs were also updated post that.
 
 
-                            I worked on the project to streamline all the sensor configs. Created a micro-service
-                            that was a single point of access to all the configs.
-                            Exposed these configs through RestAPIs, that were housed and maintained on AWS s3.
+                                I worked on the project to streamline all the sensor configs. Created a micro-service
+                                that was a single point of access to all the configs.
+                                Exposed these configs through RestAPIs, that were housed and maintained on AWS s3.
 
-                            All the backend's .conf file were just pointed to this s3's configuration file which was
-                            maintained and updated in real-time.
+                                All the backend's .conf file were just pointed to this s3's configuration file which was
+                                maintained and updated in real-time.
 
-                            This reduced atleast 20 hours of manual effort every week and drastically eliminated the
-                            chances of backend failure due to data mishandling.
+                                This reduced atleast 20 hours of manual effort every week and drastically eliminated the
+                                chances of backend failure due to data mishandling.
 
-                            <br><br>
-                            TODO : Add version controlling feature.
+                                <br><br>
+                                Proposed and Implemented Version Controlling to the above service - Designed and
+                                implemented
+                                a service to audit all the data operations done within the micro-service and exposed
+                                roll-back features. Preventing data corruption and reducing system downtime.
 
                             </p>
                         </div><!--//item-->
@@ -152,33 +157,28 @@
                                 <span
                                         class="year">(July 2017 - August 2018)</span></h3>
                             <p>
-                                Was hired as an intern for the backend engineering team, which was handling streams of
-                                high volume data from various sensors on manufacturing and gas plants.
-                                This data was collected, processed and exposed to data science teams which was doing
-                                real time predictive analysis on it.
-                                All this real time data and analysis was exposed to the different users via dashboards.
-                            <h3 class="title"><span class="place">My contribution to the above project:</span></h3>
-                            Different sensor's that were sending the data followed different protocols/configs to
-                            communicate with the backend service.
-                            This became hassle, as maintainance or updation of the configs had a cascading effect on
-                            the data and its analysis.
+                                <i>
+                                    Ola cabs is the India's larges ride sharing platform. Uber is competing with Ola for
+                                    dominating
+                                    the India's ride sharing market.
 
-                            Any addition of new sensors config was manually updated in the backend's .conf file and
-                            subsequent ETL jobs were also updated post that.
+                                </i>
 
+                                <br><br>
+                                I have closely worked with pricing and location platform at Ola.
+                                <br><br>
 
-                            I worked on the project to streamline all the sensor configs. Created a micro-service
-                            that was a single point of access to all the configs.
-                            Exposed these configs through RestAPIs, that were housed and maintained on AWS s3.
+                                Single handedly drove the feature “Hotspot and pickup point” into production. A critical
+                                feature which enabled creation and modification of geo-shapes in real time, which
+                                drastically enhanced the user experience to select pick up points. This feature resulted
+                                in 0.5x reduction in ride cancellations.
 
-                            All the backend's .conf file were just pointed to this s3's configuration file which was
-                            maintained and updated in real-time.
+                                <br><br>
 
-                            This reduced atleast 20 hours of manual effort every week and drastically eliminated the
-                            chances of backend failure due to data mishandling.
+                                Introduced rate limiter library in a high throughput location service. Used Redis cache
+                                to track the request rates from different clients based on their priorities. Improved
+                                the response time of the service by 0.3x during peak hours.
 
-                            <br><br>
-                            TODO : Add version controlling feature.
 
                             </p>
                         </div><!--//item-->
@@ -188,33 +188,10 @@
                                 <span
                                         class="year">(January 2017 - May 2017)</span></h3>
                             <p>
-                                Was hired as an intern for the backend engineering team, which was handling streams of
-                                high volume data from various sensors on manufacturing and gas plants.
-                                This data was collected, processed and exposed to data science teams which was doing
-                                real time predictive analysis on it.
-                                All this real time data and analysis was exposed to the different users via dashboards.
-                            <h3 class="title"><span class="place">My contribution to the above project:</span></h3>
-                            Different sensor's that were sending the data followed different protocols/configs to
-                            communicate with the backend service.
-                            This became hassle, as maintainance or updation of the configs had a cascading effect on
-                            the data and its analysis.
+                                <i> DeltaX is an advertisement platform that aggregates different ad-agencies and
+                                    provides consolidated access to users ad campaigns </i>
+                                <br><br>
 
-                            Any addition of new sensors config was manually updated in the backend's .conf file and
-                            subsequent ETL jobs were also updated post that.
-
-
-                            I worked on the project to streamline all the sensor configs. Created a micro-service
-                            that was a single point of access to all the configs.
-                            Exposed these configs through RestAPIs, that were housed and maintained on AWS s3.
-
-                            All the backend's .conf file were just pointed to this s3's configuration file which was
-                            maintained and updated in real-time.
-
-                            This reduced atleast 20 hours of manual effort every week and drastically eliminated the
-                            chances of backend failure due to data mishandling.
-
-                            <br><br>
-                            TODO : Add version controlling feature.
 
                             </p>
                         </div><!--//item-->
@@ -228,21 +205,23 @@
                     <h2 class="heading">Projects</h2>
                     <div class="content">
                         <div class="item featured text-center">
-                            <h3 class="title"><a
-                                    href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"
-                                    target="_blank">REST Based Chess Engine</a></h3>
+                            <h3 class="title">REST Based Chess Engine</h3>
                             <p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature -
                                 where an instance (multiple instances) play chess games with other instances through
                                 rest api's without any human interaction</p>
                             <div class="featured-image has-ribbon">
                                 <a href="https://youtu.be/_COcH8cPyps" target="_blank">
+                                    Project Demo
                                     <img class="img-fluid project-image"
-                                         src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png" alt="project name"/>
+                                         src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"
+                                         alt="project name"/>
                                 </a>
+
+
                             </div>
 
                             <div class="desc text-left">
-                                <p>This project is developed as an assignment of my master's course CS441- Engineering
+                                <p>This project was developed as part of my master's course CS441- Engineering
                                     distributed objects in cloud computing.
                                     In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an
                                         existing chess engine</a> was taken, its code was studied and API's were
@@ -263,107 +242,429 @@
                                     class="fas fa-thumbs-up"></i> Star my project on github</a>
                         </div><!--//item-->
                         <hr class="divider"/>
-                        <div class="item row">
-                            <a class="col-md-4 col-12"
-                               href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/"
-                               target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png"
-                                     alt="project name"/>
-                            </a>
-                            <div class="desc col-md-8 col-12">
-                                <h3 class="title"><a
-                                        href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/"
-                                        target="_blank">Instance - Bootstrap 4 Portfolio Theme for Aspiring Full Stack
-                                    Developers</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus
-                                    dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam
-                                    aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                                    dolor non turpis.</p>
-                                <p><a class="more-link"
-                                      href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/"
-                                      target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                            </div><!--//desc-->
-                        </div><!--//item-->
 
-                        <div class="item row">
-                            <a class="col-md-4 col-12"
-                               href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/"
-                               target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png"
-                                     alt="project name"/>
-                            </a>
-                            <div class="desc col-md-8 col-12">
-                                <h3 class="title"><a
-                                        href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/"
-                                        target="_blank">DevStudio - Bootstrap 4 Theme for WebDev Agencies and Freelance
-                                    Developers</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus
-                                    dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam
-                                    aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                                    dolor non turpis.</p>
-                                <p><a class="more-link"
-                                      href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/"
-                                      target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                            </div><!--//desc-->
-                        </div><!--//item-->
+                        <div class="item featured text-center">
+                            <h3 class="title">Cloud DataCenter Simulation</h3>
+                            <p class="summary">In this project I aim to analyze and build various cloud architectures
+                                with multiple datacenters (according to availability region). Considering the network
+                                they use to connect, with each datacenter having multiple hosts. Each host having its
+                                own build and allocation policies of VMs.
 
-                        <div class="item row">
-                            <a class="col-md-4 col-12"
-                               href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/"
-                               target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png"
+                            </p>
+                            <div class="featured-image has-ribbon">
+                                <img class="img-fluid project-image"
+                                     src="https://raw.githubusercontent.com/Mohammed-siddiq/Cloud-DataCenter-Simulations/master/images/1557660401136.png"
                                      alt="project name"/>
-                            </a>
-                            <div class="desc col-md-8 col-12">
-                                <h3 class="title"><a
-                                        href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/"
-                                        target="_blank">Startup Kit - Bootstrap 4 Theme for SaaS Startups</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus
-                                    dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam
-                                    aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                                    dolor non turpis.</p>
-                                <p><a class="more-link"
-                                      href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/"
-                                      target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                            </div><!--//desc-->
-                        </div><!--//item-->
+                            </div>
 
-                        <div class="item row">
-                            <a class="col-md-4 col-12"
-                               href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
-                               target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png"
-                                     alt="project name"/>
-                            </a>
-                            <div class="desc col-md-8 col-12">
-                                <h3 class="title"><a
-                                        href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
-                                        target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus
-                                    dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                                <p><a class="more-link"
-                                      href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
-                                      target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                            <div class="desc text-left">
+                                <p> Map-Reduce Job simulation Workflow:
+                                    Job in split into into three different tasks: Mapper, Reducer and ResourceManager.
+
+                                    <br>
+
+                                    <b> Mappers:</b> Defines an individual mapper which will work on a particular file
+                                    split and
+                                    executes the map task [CloudletExecutionTask]. After done with execution it will
+                                    emit/write the map result simulated using the [CloudletSendTask].
+
+                                    <br>
+
+                                    <b>Reducers:</b> Defines an individual reducer task which will take the output
+                                    written by
+                                    the mapper from the intermediate storage, processes it and writes/persists to the
+                                    output node.
+
+                                    <br>
+                                    <b>Resource Manager: </b>Models a resource manager, which takes in the Job requests
+                                    allocated/schedules the jobs among the different available nodes as specified by
+                                    the
+                                    job conf.
+                                    <br>
+
+                                    <b>Worker Nodes and VMs: </b>Each of the above cloudlets are executed on these
+                                    worker
+                                    nodes
+                                    which are nothing but the VMs allocated to the job by the resource manager.
+
+                                </p>
                             </div><!--//desc-->
+                            <a class="btn btn-cta-secondary"
+                               href="https://github.com/Mohammed-siddiq/Cloud-DataCenter-Simulations" target="_blank"><i
+                                    class="fas fa-thumbs-up"></i> Star my project on github</a>
                         </div><!--//item-->
-                        <div class="item row">
-                            <a class="col-md-4 col-12"
-                               href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"
-                               target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-5.png"
-                                     alt="project name"/>
-                            </a>
-                            <div class="desc col-md-8 col-12">
-                                <h3 class="title"><a
-                                        href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"
-                                        target="_blank">Delta - Bootstrap 4 Theme for Promoting Mobile Apps</a></h3>
-                                <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean
-                                    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-                                <p><a class="more-link"
-                                      href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"
-                                      target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                        <hr class="divider"/>
+
+
+                        <div class="item featured text-center">
+                            <h3 class="title">Extracting Author's publications and co-authorship using Hadoop</h3>
+                            <p class="summary">Hadoop map reduce implementation for describing author's publication and
+                                their relationship with other authors (Co-authorship) in a huge dataset.</p>
+                            <div class="featured-image has-ribbon">
+                                <a href="https://youtu.be/6OFhZpm7-6U" target="_blank">
+                                    Project Demo
+                                    <img class="img-fluid project-image"
+                                         src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"
+                                         alt="project name"/>
+                                </a>
+
+
+                            </div>
+
+                            <div class="desc text-left">
+                                <p>Created a map/reduce program for parallel processing of the publicly available DBLP
+                                    dataset that contains entries for various publications at many different
+                                    (e.g., conferences and journals).
+
+                                    <br>
+
+                                    Each entry in the dataset describes a publication, which contains the list of
+                                    authors, the title, and the publication venue and a few other attributes.
+
+                                </p>
                             </div><!--//desc-->
+                            <a class="btn btn-cta-secondary"
+                               href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i
+                                    class="fas fa-thumbs-up"></i> Read More & Star on github</a>
                         </div><!--//item-->
+                        <hr class="divider"/>
+
+
+                        <div class="item featured text-center">
+                            <h3 class="title">Page Rank In Spark</h3>
+                            <p class="summary">Page rank implementation in SPARK to rank authors and venues based on
+                                their publications in the DBLP dataset.</p>
+                            <div class="featured-image has-ribbon">
+                                <a href="https://youtu.be/OetsAniwOVM" target="_blank">
+                                    Project Demo
+                                    <img class="img-fluid project-image"
+                                         src="https://raw.githubusercontent.com/Mohammed-siddiq/Page-Rank-In-Spark/master/thumbnail.png"
+                                         alt="project name"/>
+                                </a>
+
+
+                            </div>
+
+                            <div class="desc text-left">
+                                <p>
+                                    DBLP dataset (represented in XML format) describes the publications, authors and the
+                                    venues of the publication.
+                                    This file is hosted on HDFS and logical splits of each publication is done using the
+                                    customized implementation of XMLInputFormat supporting multiple start and end tags
+                                    in an XML.
+                                    <br><br>
+                                    RDD is constructed using this file on HDFS.
+                                    The Following operations are performed on each logical input/entry of the dataset
+                                    Authors and venues are extracted.
+                                    Node links are generated between the co-authors and the venues (bi-directional graph
+                                    is considered).
+                                    Every link in the graph is given am initial probability (Initial page rank).
+                                    These links are cached since page rank runs on the basis of these links and every
+                                    worker/task needs access to it.
+                                    Page rank is applied iteratively over the nodes/links in the graph. The
+                                    damping/teleportation factor is considered to be 0.15. Refer to this link for more
+                                    details on page rank in the spark
+                                    <br><br>
+                                    After the algorithm stabilizes the page rank values, the ranked nodes are sorted
+                                    based on the page rank values.
+                                    The authors and venues are filtered out accordingly based on their ranks.
+
+
+                                </p>
+                            </div><!--//desc-->
+                            <a class="btn btn-cta-secondary"
+                               href="https://github.com/Mohammed-siddiq/Page-Rank-In-Spark" target="_blank"><i
+                                    class="fas fa-thumbs-up"></i> Read More and Star project on github</a>
+                        </div><!--//item-->
+                        <hr class="divider"/>
+
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+
+                        <!--<div class="item featured text-center">-->
+                            <!--<h3 class="title"><a-->
+                                    <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/"-->
+                                    <!--target="_blank">REST Based Chess Engine</a></h3>-->
+                            <!--<p class="summary">Exposed a chess game via REST APIs. Also includes auto-play feature - -->
+                                <!--where an instance (multiple instances) play chess games with other instances through-->
+                                <!--rest api's without any human interaction</p>-->
+                            <!--<div class="featured-image has-ribbon">-->
+                                <!--<a href="https://youtu.be/_COcH8cPyps" target="_blank">-->
+                                    <!--Project Demo-->
+                                    <!--<img class="img-fluid project-image"-->
+                                         <!--src="https://raw.githubusercontent.com/Mohammed-siddiq/Authors-Relationship/master/thumbnail.png"-->
+                                         <!--alt="project name"/>-->
+                                <!--</a>-->
+
+
+                            <!--</div>-->
+
+                            <!--<div class="desc text-left">-->
+                                <!--<p>This project is developed as an assignment of my master's course CS441- Engineering-->
+                                    <!--distributed objects in cloud computing.-->
+                                    <!--In this project,<a href="http://hem.bredband.net/petero2b/javachess/index.html">an-->
+                                        <!--existing chess engine</a> was taken, its code was studied and API's were-->
+                                    <!--analysed. Modified this engine to play chess over Http requests.-->
+                                    <!--The state of the game was maintained through sessionKeys and the state was persisted-->
+                                    <!--on MongoDB. The whole project was bundled into a Docker image (<a-->
+                                            <!--href="https://hub.docker.com/repository/docker/immohammedsiddiq/rest-chess-engine-ai?ref=login">Link-->
+                                        <!--to docker hub</a>) and deployed on amazon EC2 instances.-->
+
+                                    <!--The interesting and the challenging part was to add and maintain multiple game-->
+                                    <!--states - Essentially, a single instance of the engine could play with multiple other-->
+                                    <!--opponents at the same time.-->
+
+                                <!--</p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                            <!--<a class="btn btn-cta-secondary"-->
+                               <!--href="https://github.com/Mohammed-siddiq/Rest-Based-Chess-Engine" target="_blank"><i-->
+                                    <!--class="fas fa-thumbs-up"></i> Star my project on github</a>-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<hr class="divider"/>-->
+
+                        <!--<div class="item row">-->
+                            <!--<a class="col-md-4 col-12"-->
+                               <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"-->
+                               <!--target="_blank">-->
+                                <!--<img class="img-fluid project-image" src="assets/images/projects/project-4.png"-->
+                                     <!--alt="project name"/>-->
+                            <!--</a>-->
+                            <!--<div class="desc col-md-8 col-12">-->
+                                <!--<h3 class="title"><a-->
+                                        <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"-->
+                                        <!--target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>-->
+                                <!--<p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus-->
+                                    <!--dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>-->
+                                <!--<p><a class="more-link"-->
+                                      <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"-->
+                                      <!--target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+                        <!--<div class="item row">-->
+                            <!--<a class="col-md-4 col-12"-->
+                               <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"-->
+                               <!--target="_blank">-->
+                                <!--<img class="img-fluid project-image" src="assets/images/projects/project-5.png"-->
+                                     <!--alt="project name"/>-->
+                            <!--</a>-->
+                            <!--<div class="desc col-md-8 col-12">-->
+                                <!--<h3 class="title"><a-->
+                                        <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"-->
+                                        <!--target="_blank">Delta - Bootstrap 4 Theme for Promoting Mobile Apps</a></h3>-->
+                                <!--<p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean-->
+                                    <!--imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>-->
+                                <!--<p><a class="more-link"-->
+                                      <!--href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/"-->
+                                      <!--target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
+                            <!--</div>&lt;!&ndash;//desc&ndash;&gt;-->
+                        <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
 
                     </div><!--//content-->
                 </div><!--//section-inner-->
@@ -452,8 +753,10 @@
                     <h2 class="heading">Skills</h2>
                     <div class="content">
                         <p class="intro">
-                            A polyglot experienced in developing backend systems using spring MVC, having interacted
-                            with large scale data residing on both SQL and NoSQL stores like MySQL, MongoDB.
+                            A polyglot, experienced in developing backend systems and working with big data frameworks.
+                            I have interacted
+                            with large-scale structured and unstructured data stores like MySQL, MongoDB, Redis, Kafka,
+                            HDFS.
 
                         </p>
 
@@ -472,13 +775,41 @@
                                 </div><!--//level-bar-->
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="level-title">Spring MVC, hibernate, Test driven development<span
+                                <h3 class="level-title">Spring MVC, Hibernate, TDD<span
                                         class="level-label"
                                         data-toggle="tooltip"
                                         data-placement="left"
                                         data-animation="true"
                                         title="Have developed backend services and web apps using spring framework for about 3 years"><i
-                                        class="fas fa-info-circle"></i></span></h3>
+                                        class="fas fa-info-circle"></i>Industry level</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="88%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">GIT, Maven, Jenkins, Docker<span
+                                        class="level-label"
+                                        data-toggle="tooltip"
+                                        data-placement="left"
+                                        data-animation="true"
+                                        title="Have developed backend services and web apps using spring framework for about 3 years"><i
+                                        class="fas fa-info-circle"></i>Industry level</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="88%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">REST API development, RPCs<span
+                                        class="level-label"
+                                        data-toggle="tooltip"
+                                        data-placement="left"
+                                        data-animation="true"
+                                        title="Have developed backend services and web apps using spring framework for about 3 years"><i
+                                        class="fas fa-info-circle"></i>Industry level</span></h3>
                                 <div class="level-bar">
                                     <div class="level-bar-inner" data-level="88%">
                                     </div>
@@ -545,49 +876,6 @@
                 </div><!--//section-inner-->
             </aside><!--//section-->
 
-            <aside class="testimonials aside section">
-                <div class="section-inner">
-                    <h2 class="heading">Testimonials</h2>
-                    <div class="content">
-                        <div class="item">
-                            <blockquote class="quote">
-                                <p><i class="fas fa-quote-left"></i>Worked closely with Siddiq on some of the complex
-                                    projects in Olacabs especially related to routing, eta and maps.
-
-                                    He is one of the most thorough analyser of problem before he starts implementing the
-                                    solution.
-                                    His approach towards solving a problem isn't limited to software but in addition,
-                                    focused on domain knowledge too.
-                                    He definitely increases the chance of any project's success.</p>
-                            </blockquote>
-                            <p class="source"><span class="name">Arpit Kumar</span><br/><span class="title">Prinicipal Engineer at Ola</span>
-                            </p>
-                        </div><!--//item-->
-
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">
-                                    <p><i class="fas fa-quote-left"></i>I have worked with Mohammed Siddiq at Ola Cabs.
-                                        He is definitely talented and has a lot of problem-solving skills in his bag.
-                                        He is a proficient programmer in Java and Python. He has his basic foundation of
-                                        concepts right.
-                                        What I liked the most about him is that he is a quick learner, and keeps his
-                                        positive attitude always high.
-                                        He could understand complex systems and platforms and work on them seamlessly.
-                                        Not only he is good technically, but he is also a fun person to be around once
-                                        you get to know him well</p>
-                                </blockquote>
-                                <p class="source"><span class="name">Dinesh Kumar</span><br/><span class="title">Lead Software Engineer at Swiggy</span>
-                                </p>
-                            </div><!--//item-->
-
-                            <p><a class="more-link" href="https://www.linkedin.com/in/im-mohammed-siddiq/"><i
-                                    class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
-
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </div>
-            </aside><!--//section-->
 
             <aside class="education aside section">
                 <div class="section-inner">
@@ -730,6 +1018,52 @@
                     </div><!--//content-->
                 </div><!--//section-inner-->
             </aside><!--//section-->
+
+
+            <aside class="testimonials aside section" id="testimonial" style="">
+                <div class="section-inner">
+                    <h2 class="heading">Testimonials</h2>
+                    <div class="content">
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p><i class="fas fa-quote-left"></i>Worked closely with Siddiq on some of the complex
+                                    projects in Olacabs especially related to routing, eta and maps.
+
+                                    He is one of the most thorough analyser of problem before he starts implementing the
+                                    solution.
+                                    His approach towards solving a problem isn't limited to software but in addition,
+                                    focused on domain knowledge too.
+                                    He definitely increases the chance of any project's success.</p>
+                            </blockquote>
+                            <p class="source"><span class="name">Arpit Kumar</span><br/><span class="title">Prinicipal Engineer at Ola</span>
+                            </p>
+                        </div><!--//item-->
+
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fas fa-quote-left"></i>I have worked with Mohammed Siddiq at Ola Cabs.
+                                        He is definitely talented and has a lot of problem-solving skills in his bag.
+                                        He is a proficient programmer in Java and Python. He has his basic foundation of
+                                        concepts right.
+                                        What I liked the most about him is that he is a quick learner, and keeps his
+                                        positive attitude always high.
+                                        He could understand complex systems and platforms and work on them seamlessly.
+                                        Not only he is good technically, but he is also a fun person to be around once
+                                        you get to know him well</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Dinesh Kumar</span><br/><span class="title">Lead Software Engineer at Swiggy</span>
+                                </p>
+                            </div><!--//item-->
+
+                            <p><a class="more-link" href="https://www.linkedin.com/in/im-mohammed-siddiq/"><i
+                                    class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </div>
+            </aside><!--//section-->
+
 
         </div><!--//secondary-->
     </div><!--//row-->
